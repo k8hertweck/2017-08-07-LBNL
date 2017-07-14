@@ -7,7 +7,7 @@ country: "us"      # country (lowercase two-letter ISO code such as "fr" - see h
 language: "us"     # language (lowercase two-letter ISO code such as "fr" - see https://en.wikipedia.org/wiki/ISO_639-1)
 latlng: "37.875970,-122.250006"       # fractional latitude and longitude (e.g., "41.7901128,-87.6007318"; you can use http://www.latlong.net/)
 humandate: "August 7-8, 2017"    # human-readable date (e.g., "Feb 17-18, 2020")
-humantime: "9:00 am - 5:00 pm"    # human-readable time (e.g., "9:00 am - 4:30 pm")
+humantime: "9:00 am - 4:00 pm"    # human-readable time (e.g., "9:00 am - 4:30 pm")
 startdate: 2017-08-07      # use YYYY-MM-DD format like 2015-01-01
 enddate: 2017-08-08        # use YYYY-MM-DD format like 2015-01-02
 instructor: ["Kate Hertweck", "Erin Becker"] # list of names like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
@@ -88,7 +88,7 @@ Participants should bring their laptops and plan to participate actively. By the
 {% if page.latlng %}
 <p>
   <strong>Where:</strong>
-  {{page.address}}.
+  Lawrence Berkeley National Laboratory, Building 59, Room 3101. {{page.address}}. 
   Get directions with
   <a href="//www.openstreetmap.org/?mlat={{page.latlng | replace:',','&mlon='}}&zoom=16">OpenStreetMap</a>
   or
